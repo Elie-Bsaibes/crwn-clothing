@@ -10,15 +10,10 @@
   top: 90px;
   right: 40px;
   z-index: 5;
-  margin-right: 90px;
-  ::-webkit-scrollbar {
-    width: 4px;
-    background-color: transparent;
-  }
 
-  ::-webkit-scrollbar-thumb {
-    background-color: rgba(0, 0, 0, 0.7);
-    border-radius: 20px;
+  .empty-message {
+    font-size: 18px;
+    margin: 50px auto;
   }
 
   .cart-items {
@@ -26,11 +21,6 @@
     display: flex;
     flex-direction: column;
     overflow: scroll;
-  }
-
-  .empty-message {
-    font-size: 18px;
-    margin: 50px auto;
   }
 
   button {
